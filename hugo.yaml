@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: Will Dumm
 
 # import hextra as module
 module:
@@ -18,7 +18,7 @@ markup:
 
 menu:
   main:
-    - name: Docs
+    - name: Classes
       pageRef: /docs
       weight: 1
     - name: About
@@ -31,16 +31,6 @@ menu:
       weight: 4
       params:
         type: search
-    - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
-      params:
-        icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
 
 params:
   navbar:
@@ -49,8 +39,19 @@ params:
 
   footer:
     displayCopyright: false
-    displayPoweredBy: true
+    displayPoweredBy: false
 
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+
+  theme:
+    default: light
+    displayToggle: false
+
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      index: content

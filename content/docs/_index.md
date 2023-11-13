@@ -1,6 +1,5 @@
 ---
-title: Documentation
-next: first-page
+title: Classes
 ---
 
 This is a demo of the theme's documentation layout.
